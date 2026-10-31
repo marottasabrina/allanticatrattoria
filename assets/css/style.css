@@ -338,8 +338,8 @@ footer {
   font-size: 11px
 }
 
-.nl-badge {
-  display: none
+.nl-wrap {
+    display: none !important;
 }
 
 @media(max-width:760px) {
