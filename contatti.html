@@ -33,9 +33,20 @@
 <div id="footer"></div>
 <script>
 		
-		fetch('head.html')
+		fetch('/head.html')
   .then(res => res.text())
   .then(data => {
+    const temp = document.createElement('div');
+    temp.innerHTML = data;
+
+    temp.querySelectorAll('link[rel="icon"]').forEach(link => {
+      const favicon = document.createElement('link');
+      favicon.rel = 'icon';
+      favicon.type = link.type;
+      favicon.href = link.href;
+      document.head.appendChild(favicon);
+    });
+
     document.getElementById('head-content').innerHTML = data;
   });
 		
