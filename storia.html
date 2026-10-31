@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+<head>
+<title>All'Antica Trattoria | Storia</title>
+<div id="head-content"></div>
+</head>
+<body>
+<div class="topline"></div>
+<div id="header"></div>
+<main>
+  <section class="pagehero">
+    <div class="eyebrow">Le nostre radici</div>
+    <h1>Una passione che diventa casa</h1>
+    <p>La storia di un giovane limatolese e del suo amore per la cucina autentica.</p>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="storytext">
+        <div class="smallcaps center">All'Antica Trattoria · Limatola</div>
+        <div class="ornament"></div>
+        <p>All'Antica Trattoria a Limatola nasce nel novembre 2026 da una grande passione per la cucina di Giovanni Natale, giovane limatolese che ha scelto di trasformare il suo amore per i sapori autentici in un vero e proprio lavoro.</p>
+        <p>Dalle radici del territorio e dai sapori della cucina di una volta, prende vita una proposta gastronomica che celebra la tradizione campana, reinterpretando i piatti tipici con creatività, freschezza e un tocco di modernità.</p>
+        <p>Ogni piatto racconta una storia fatta di passione, ingredienti genuini e amore per la buona tavola. Un luogo dove riscoprire i sapori di casa, lasciarsi sorprendere da nuove interpretazioni e vivere il piacere della cucina autentica.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section center" style="background:#f4e9e7">
+    <div class="container">
+      <h2>La tradizione, ogni giorno a tavola</h2>
+      <p class="intro">Un progetto giovane, con il cuore legato alla propria terra e lo sguardo rivolto al futuro.</p>
+      <div style="margin-top:28px"><a class="btn" href="menu.html">Dai un'occhiata al menù</a></div>
+    </div>
+  </section>
+</main>
+<div id="footer"></div>
+<script>
+		
+		fetch('head.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('head-content').innerHTML = data;
+  });
+		
+fetch('header.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+
+fetch('footer.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
+  });
+</script>
+</body>
+</html>

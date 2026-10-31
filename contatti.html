@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="it">
+	<head>
+  <title>All'Antica Trattoria | Contatti</title>
+  <div id="head-content"></div>
+</head>
+<body>
+<div class="topline"></div>
+<div id="header"></div>
+
+<main>
+  <section class="pagehero">
+    <div class="eyebrow">Vieni a trovarci</div>
+    <h1>Contatti</h1>
+    <p>Saremo felici di accoglierti e condividere con te il piacere della buona tavola.</p>
+  </section>
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-card">
+        <div class="smallcaps">All'Antica Trattoria</div>
+        <h2 style="font-size:34px">Ti aspettiamo</h2>
+        <div class="contact-line"><b>☎</b><span><strong>Telefono</strong><br>
+        <a href="tel:+393773937610">377 393 7610</a></span></div>
+        <div class="contact-line"><b>✉</b><span><strong>Email</strong><br>
+        <a href="mailto:info@allanticatrattoria.it">info@allanticatrattoria.it</a></span></div>
+        <div class="contact-line"><b>⌖</b><span><strong>Indirizzo</strong><br>
+          SP119, 82030 Limatola BN</span></div>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x133a51375349b4b5:0x553381fe0cd0919d?sa=X&ved=1t:8290&hl=it&ictx=111">Apri su Google Maps</a></div>
+      <iframe class="map" title="Mappa All'Antica Trattoria" loading="lazy" src="https://www.google.com/maps?q=SP119%2C%2082030%20Limatola%20BN&output=embed"></iframe>
+    </div>
+  </section>
+</main>
+<div id="footer"></div>
+<script>
+		
+		fetch('head.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('head-content').innerHTML = data;
+  });
+		
+fetch('header.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+
+fetch('footer.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
+  });
+</script>
+</body>
+</html>

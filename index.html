@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="All'Antica Trattoria a Limatola: cucina campana, sapori autentici e tradizione reinterpretata con un tocco moderno.">
+<title>All'Antica Trattoria | Limatola</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="topline"></div>
+<div id="header"></div>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Limatola · Tradizione campana</div>
+      <h1>Il gusto autentico<br>
+        della nostra terra.</h1>
+      <p>La cucina di una volta incontra nuove idee. Sapori genuini, ricordi di casa e passione per la buona tavola.</p>
+      <a class="btn light" href="menu.html">Scopri il menù</a></div>
+  </section>
+  <section class="section center">
+    <div class="container">
+      <div class="smallcaps">Benvenuti</div>
+      <h2>Una storia di passione, da assaporare</h2>
+      <div class="ornament"></div>
+      <p class="intro">All'Antica Trattoria nasce a Limatola per celebrare i sapori autentici della tradizione campana, con piatti preparati con cura e reinterpretati con creatività e modernità.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container split">
+      <div class="photo" role="img" aria-label="Tavola imbandita con piatti della cucina italiana"></div>
+      <div class="copy">
+        <div class="smallcaps">La nostra filosofia</div>
+        <h2>Il sapore di casa, con uno sguardo nuovo</h2>
+        <p>Ogni piatto racconta il legame con il territorio, la genuinità degli ingredienti e l'amore per la cucina. Un invito a riscoprire ricette e profumi di un tempo, lasciandosi sorprendere da un tocco contemporaneo.</p>
+        <a class="btn" href="storia.html">La nostra storia</a></div>
+    </div>
+  </section>
+  <section class="section center" style="background:#f4e9e7">
+    <div class="container">
+      <div class="smallcaps">A tavola con noi</div>
+      <h2>La tradizione ha un nuovo racconto</h2>
+      <div class="features">
+        <article class="feature">
+          <div class="symbol">✦</div>
+          <h3>Radici locali</h3>
+          <p>La cucina campana e i sapori della nostra terra come punto di partenza.</p>
+        </article>
+        <article class="feature">
+          <div class="symbol">♡</div>
+          <h3>Passione genuina</h3>
+          <p>La cura e l'entusiasmo di chi ha scelto di fare della cucina il proprio mestiere.</p>
+        </article>
+        <article class="feature">
+          <div class="symbol">❧</div>
+          <h3>Tradizione creativa</h3>
+          <p>Ricette di una volta rivisitate con freschezza e un tocco moderno.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="cta">
+    <div class="container">
+      <h2>Ti aspettiamo a Limatola</h2>
+      <p>Vieni a scoprire la nostra idea di cucina: un incontro tra memoria, territorio e convivialità.</p>
+      <a class="btn" href="contatti.html">Contattaci</a></div>
+  </section>
+</main>
+<div id="footer"></div>
+<script>
+fetch('header.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+
+fetch('footer.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
+  });
+</script>
+</body>
+</html>

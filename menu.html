@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+	<head>
+  <title>All'Antica Trattoria | Menù</title>
+  <div id="head-content"></div>
+</head>
+<body>
+<div class="topline"></div>
+<div id="header"></div>
+
+<main>
+  <section class="pagehero">
+    <div class="eyebrow">La nostra cucina</div>
+    <h1>Il Menù</h1>
+    <p>Tradizione campana, ingredienti genuini e sapori da condividere.</p>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="menu-note">
+        <div class="smallcaps">A tavola</div>
+        <h2>Il menù è in preparazione</h2>
+        <div class="ornament"></div>
+        <p>Stiamo preparando la selezione dei nostri piatti. Torna presto a trovarci per scoprire tutte le proposte di All'Antica Trattoria.</p>
+        <p>Per informazioni sui piatti e sulle disponibilità, contattaci direttamente.</p>
+        <a class="btn" href="tel:+393773937610">Chiama il ristorante</a></div>
+    </div>
+  </section>
+</main>
+	<div id="footer"></div>
+<script>
+		
+		fetch('head.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('head-content').innerHTML = data;
+  });
+		
+fetch('header.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+
+fetch('footer.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
+  });
+</script>
+</body>
+</html>
