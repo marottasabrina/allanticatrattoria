@@ -337,6 +337,11 @@ footer {
   color: #bfa9ab;
   font-size: 11px
 }
+
+.nl-badge {
+  display: none
+}
+
 @media(max-width:760px) {
   .navwrap {
     padding: 8px 18px
