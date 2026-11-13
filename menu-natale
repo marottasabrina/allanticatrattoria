@@ -1,0 +1,214 @@
+<html lang="it"><head>
+  <title>All'Antica Trattoria | Menù</title>
+  <link rel="icon" type="image/png" href="https://allanticatrattoria.it/assets/img/favicon.png"></head><body><div id="head-content">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<meta name="description" content="All'Antica Trattoria a Limatola: cucina campana, sapori autentici e tradizione reinterpretata con un tocco moderno.">
+<title>All'Antica Trattoria | Limatola</title>
+<link rel="stylesheet" href="assets/css/style.css">
+
+</div>
+
+
+<div class="topline"></div>
+<div id="header"><header>
+  <div class="navwrap"><a class="brand" href="index.html"><img src="assets/img/Logo all antica trattoria.svg" alt="Logo All'Antica Trattoria" width="250px"></a>
+    <button class="menu-toggle" aria-label="Apri il menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav>
+		<a class="active" href="index.html">Home</a>
+		<a href="storia.html">Storia</a>
+		<a href="menu.html">Menù</a>
+		<a href="contatti.html">Contatti</a></nav>
+  </div>
+</header>
+</div>
+
+<main>
+
+  <section class="pagehero">
+    <div class="eyebrow">All'Antica Trattoria</div>
+    <h1>Pranzo di Natale</h1>
+    <p>Prenota il tuo tavolo in tempo e festeggia con noi.</p>
+  </section>
+
+  <section class="menu-section">
+    <div class="menu-container">
+
+      <div class="menu-intro">
+        <div class="smallcaps">Il menù delle feste</div>
+        <h2>Pranzo di Natale</h2>
+        <div class="ornament"></div>
+        <p>Un percorso tra i sapori della tradizione e i piatti delle feste.</p>
+      </div>
+
+      <div class="menu-grid">
+
+        <!-- ANTIPASTO -->
+        <div class="menu-category">
+          <h2>Antipasto</h2>
+          <div class="menu-subtitle">Per iniziare</div>
+
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Tavolozza di salumi e formaggi del territorio</h3>
+              <p>Con composta di frutta</p>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Centrotavola</h3>
+              <p>Minestra maritata, insalata di rinforzo, scarola imbottita, baccalà fritto con broccolo nero, carciofi arrostiti, zucca in agrodolce e olive</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRIMO -->
+        <div class="menu-category">
+          <h2>Primo</h2>
+          <div class="menu-subtitle">Il primo piatto</div>
+
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Cannelloni ripieni alla napoletana</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECONDO -->
+        <div class="menu-category">
+          <h2>Secondo</h2>
+          <div class="menu-subtitle">I sapori della tradizione</div>
+
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Medaglione di vitello brasato con piselli</h3>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Centrotavola</h3>
+              <p>Agnello con patate</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FRUTTA -->
+        <div class="menu-category">
+          <h2>Frutta</h2>
+          <div class="menu-subtitle">Una pausa fresca</div>
+        </div>
+
+        <!-- PER CONCLUDERE -->
+        <div class="menu-category">
+          <h2>Per concludere</h2>
+          <div class="menu-subtitle">Il finale delle feste</div>
+
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Assaggi di dolci natalizi e frutta secca</h3>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-info">
+              <h3>Acqua, vino e digestivo inclusi</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="menu-special">
+        <div class="smallcaps">Il pranzo delle feste</div>
+        <h2>Prezzo a persona</h2>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h3>Menù completo</h3>
+          </div>
+          <span class="menu-price"><span class="currency">€</span> 55</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+	<div id="footer"><footer>
+  <div class="foot brand">
+	  <img src="assets/img/Logo all antica trattoria.svg" alt="All'Antica Trattoria" width="250px">
+   <div>
+      <strong>All'Antica Trattoria</strong>
+      <ul>
+        <li><a href="tel:+393773937610"><b>☎</b> 377 393 7610</a></li>
+        <li>
+          <a href="mailto:info@allanticatrattoria.it">
+            <b>✉</b> info@allanticatrattoria.it
+          </a>
+        </li>
+        <li>
+          <a href="https://maps.app.goo.gl/f4HNykDEC1SBibpn6" target="_blank" rel="noopener">
+            SP119, loc. Paradiso, 82030 Limatola (BN)
+          </a>
+        </li>
+        <li>
+          <a class="footer-instagram" href="https://www.instagram.com/allanticatrattoria/" aria-label="@allanticatrattoria su Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+            </svg>
+            @allanticatrattoria
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <strong>Orari di apertura</strong>
+      <ul>
+        <li>Mercoledì e Giovedì: cena</li>
+        <li>Da Venerdì a Domenica: pranzo e cena</li>
+      </ul>
+    </div>
+    <div class="footlinks"><a href="index.html">Home</a> <a href="storia.html">Storia</a> <a href="menu.html">Menù</a> <a href="contatti.html">Contatti</a></div>
+  </div>
+  <div class="copyright">© 2026 All'Antica Trattoria · Limatola</div>
+</footer>
+</div>
+<script>
+		
+		fetch('/head.html')
+  .then(res => res.text())
+  .then(data => {
+    const temp = document.createElement('div');
+    temp.innerHTML = data;
+
+    temp.querySelectorAll('link[rel="icon"]').forEach(link => {
+      const favicon = document.createElement('link');
+      favicon.rel = 'icon';
+      favicon.type = link.type;
+      favicon.href = link.href;
+      document.head.appendChild(favicon);
+    });
+
+    document.getElementById('head-content').innerHTML = data;
+  });
+		
+fetch('header.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  });
+
+fetch('footer.html')
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById('footer').innerHTML = data;
+  });
+</script>
+
+
+</body></html>
