@@ -7,6 +7,13 @@
   --muted: #756967;
   --line: #eadbd8
 }
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('../fonts/DancingScript-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
 * {
   box-sizing: border-box
 }
@@ -114,10 +121,11 @@ nav a:hover, nav a.active {
   color: #f0cbd0
 }
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-  line-height: 1.12
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    line-height: 1.12
 }
+
 h1 {
   font-size: clamp(44px, 7vw, 82px);
   max-width: 760px;
@@ -471,8 +479,7 @@ html body .nl-wrap * {
 
     .menu-item h3 {
       color: #28201e;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 15px;
+     font-size: 15px;
       font-weight: 600;
       margin: 0;
       line-height: 1.5;
