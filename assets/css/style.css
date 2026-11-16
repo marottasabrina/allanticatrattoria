@@ -551,6 +551,28 @@ html body .nl-wrap * {
       color: #7C1622;
     }
 
+.menu-natale {
+  background-image: url("../img/bgnatale.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* Tutti i testi e gli elementi del menù Natale */
+.menu-natale h2,
+.menu-natale h3,
+.menu-natale p,
+.menu-natale .menu-subtitle,
+.menu-natale .menu-price,
+.menu-natale .menu-item-info,
+.menu-natale .menu-coperto,
+.menu-natale .currency {
+  color: #fff !important;
+}
+
+/* Da qui in poi solo per mobile */
+
     @media(max-width:760px) {
       .menu-section {
         padding: 50px 20px 65px;
@@ -574,23 +596,3 @@ html body .nl-wrap * {
         font-size: 14px;
       }
 
-
-.menu-natale {
-  background-image: url("../img/bgnatale.svg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-
-/* Tutti i testi e gli elementi del menù Natale */
-.menu-natale h2,
-.menu-natale h3,
-.menu-natale p,
-.menu-natale .menu-subtitle,
-.menu-natale .menu-price,
-.menu-natale .menu-item-info,
-.menu-natale .menu-coperto,
-.menu-natale .currency {
-  color: #fff !important;
-}
