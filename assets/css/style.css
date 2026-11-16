@@ -563,7 +563,7 @@ html body .nl-wrap * {
 .menu-natale h2,
 .menu-natale h3,
 .menu-natale p,
-.menu-natale .menu-category,
+.menu-natale .menu-category h2,
 .menu-natale .menu-subtitle,
 .menu-natale .menu-price,
 .menu-natale .menu-item-info,
@@ -571,8 +571,9 @@ html body .nl-wrap * {
 .menu-natale .currency {
   color: #fff !important;
   text-align: center !important;
-  border-top: 2px solid #fff;
-}
+  }
+
+.menu-natale h2 {border-top: 2px solid #fff;}
 
 /* Da qui in poi solo per mobile */
 
