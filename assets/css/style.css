@@ -571,7 +571,7 @@ html body .nl-wrap * {
 .menu-natale .currency {
   color: #fff !important;
   text-align: center !important;
-  border-top: #fff !important;
+  border-top: 2px solid #fff;
 }
 
 /* Da qui in poi solo per mobile */
