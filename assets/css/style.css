@@ -573,3 +573,24 @@ html body .nl-wrap * {
       .menu-item h3 {
         font-size: 14px;
       }
+
+
+.menu-natale {
+  background-image: url("../img/bgnatale.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+/* Tutti i testi e gli elementi del menù Natale */
+.menu-natale h2,
+.menu-natale h3,
+.menu-natale p,
+.menu-natale .menu-subtitle,
+.menu-natale .menu-price,
+.menu-natale .menu-item-info,
+.menu-natale .menu-coperto,
+.menu-natale .currency {
+  color: #fff !important;
+}
