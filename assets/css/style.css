@@ -479,7 +479,8 @@ html body .nl-wrap * {
 
     .menu-item h3 {
       color: #28201e;
-     font-size: 15px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
       font-weight: 600;
       margin: 0;
       line-height: 1.5;
